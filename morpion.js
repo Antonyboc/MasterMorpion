@@ -118,7 +118,7 @@ function jouer()
         }
         gagne = true;
     }
-    if(case1!="" && case2!="" && case3!="" && case4!="" && case5!="" && case6!="" && case7!="" && case8!="" && case9!="")
+    if(case1!="" && case2!="" && case3!="" && case4!="" && case5!="" && case6!="" && case7!="" && case8!="" && case9!="" && gagne==false)
     {
         document.getElementById("js-tour-joueur").innerText = "MATCH NUL";
         gagne=true;
